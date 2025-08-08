@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "public/index.php",
-      "use": "@vercel/php"
+      "use": "@vercel/php@0.5.1"
     }
   ],
   "routes": [
@@ -11,5 +11,7 @@
       "src": "/(.*)",
       "dest": "public/index.php"
     }
-  ]
+  ],
+    "installCommand": "",
+  "buildCommand": ""
 }
