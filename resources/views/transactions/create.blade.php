@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container py-5">
     <h1 class="mb-4">Tambah Transaksi</h1>
 
     <form action="{{ route('transactions.store') }}" method="POST" enctype="multipart/form-data">
