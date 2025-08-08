@@ -1,9 +1,8 @@
 {
-  "version": 2,
   "builds": [
     {
       "src": "public/index.php",
-      "use": "@vercel/php@0.5.1"
+      "use": "@vercel/php"
     }
   ],
   "routes": [
@@ -12,6 +11,5 @@
       "dest": "public/index.php"
     }
   ],
-    "installCommand": "",
-  "buildCommand": ""
+  "buildCommand": "true"
 }
